@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.banner{
+    padding: 0px 70px;
+    background-color: #FFC815;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 33%;
+}
+
+.hprojects{
+    color: black;
+    font-size: 80px;
+    font-weight: 800;
+}
