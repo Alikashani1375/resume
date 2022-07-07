@@ -56,3 +56,20 @@
 .items:hover{
     color: #FFC815;
 }
+
+@media only screen and (max-width : 600px) {
+    .text{
+        font-size: 15px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        width:60%;
+        flex-direction: row;
+        background-color: #292929;
+        color: white;
+        margin: auto;
+        height: 65%;
+    }
+}

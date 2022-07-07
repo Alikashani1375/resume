@@ -31,7 +31,14 @@ const About = () => {
                 WEB DEVELOPER FROM IRAN
                 </div>
                 <div className={aboutStyles.thirdtext}>
-                    hello im ali, this page is about my skills
+                Self-taught junior front-end developer who knows how 
+                to create, design and modify web content. 
+                Ability to be flexible and learn fast during all stages of 
+                web development. Possesses strong interpersonal skills 
+                and is able to work well with others.
+                By now searches for an awesome team to join and 
+                make the future.
+
                 </div>
                 <div className={aboutStyles.follow}>
                     <div className={aboutStyles.textfollow}>

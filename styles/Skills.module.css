@@ -126,3 +126,30 @@
     height: 10px;
     background-color: #FFC815;
 }
+
+@media only screen and (max-width : 600px) {
+
+    .container{
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .main{
+        margin-left: 0;
+    }
+
+    .banner{
+        margin-top: 40px;
+        width: 60%;
+    }
+
+    .lastcontainer{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

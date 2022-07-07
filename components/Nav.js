@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div className={navStyles.container}>
         <div className={navStyles.text}>
-            Ali Kashani
+            <p>Ali Kashani</p>
         </div>
         <div className={navStyles.menu}>
             <div className={navStyles.fitem}>

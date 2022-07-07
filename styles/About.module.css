@@ -91,3 +91,29 @@
 .insta{
     margin: auto;
 }
+
+@media only screen and (max-width : 600px) {
+    .backabout{
+        margin-left: 100px;
+        z-index: -1;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pic{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .textcontainer{
+        width: 92%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}

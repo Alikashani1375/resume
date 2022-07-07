@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 40px;   
-     margin-right: 0px;
+    margin-right: 0px;
 }
 
 .underline{
@@ -73,6 +73,7 @@
 .end{
     display: flex;
     align-items: center;
+    position: absolute;
     margin-top: 20px;
     width: 100%;
     height: 100px;
@@ -85,4 +86,31 @@
 
 .end p{
     margin-left: 100px;
+}
+
+@media only screen and (max-width : 600px) {
+    .banner{
+        margin-top: 40px;
+    }
+
+    .lastcontainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;;
+        letter-spacing: 1px;
+        align-items: center;
+    }
+    .number{
+        margin-bottom: 20px;
+    }
+    .email{
+        margin-top: 20px;
+    }
+
+    .underlinel{
+        margin-top: 50px;
+    }
+    .end{
+       margin-left: 0;
+    }
 }

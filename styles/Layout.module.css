@@ -14,3 +14,15 @@
     margin-top: 80px;
     margin-left: 50px;
 }
+
+@media only screen and (max-width : 600px) {
+    .pics{
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+}
