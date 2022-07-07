@@ -13,6 +13,8 @@
 }
 
 .text{
+    display: flex;
+    align-items: center;
     font-size: 30px;
     color:#060606 ;
     background-color: #FFC815;

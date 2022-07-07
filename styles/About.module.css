@@ -94,8 +94,7 @@
 
 @media only screen and (max-width : 600px) {
     .backabout{
-        margin-left: 100px;
-        z-index: -1;
+        display: none;
     }
 
     .main{

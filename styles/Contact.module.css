@@ -113,4 +113,8 @@
     .end{
        margin-left: 0;
     }
+
+    .backcontact{
+        display: none;
+    }
 }

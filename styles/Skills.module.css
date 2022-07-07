@@ -143,6 +143,10 @@
         width: 60%;
     }
 
+    .backskill{
+        display: none;
+    }
+
     .lastcontainer{
         margin-top: 50px;
         display: flex;
