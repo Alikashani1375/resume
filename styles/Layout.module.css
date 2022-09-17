@@ -11,8 +11,9 @@
 
 .main{
     width: 60%;
-    margin-top: 80px;
-    margin-left: 50px;
+    padding: 50px;
+    padding-bottom: 0;
+    padding-right: 0;
 }
 
 @media only screen and (max-width : 600px) {

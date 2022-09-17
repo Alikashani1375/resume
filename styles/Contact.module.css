@@ -1,18 +1,18 @@
-.container{
+#container{
     display: flex;
     flex-direction: column;
     margin-top: 40px;   
     margin-right: 0px;
 }
 
-.underline{
+#underline{
     width: 95%;
     margin: auto;
     height: 1.1px;
     background-color: #A1A1A1;
 }
 
-.banner{
+#banner{
     margin-top: 80px;
     width: 30%;
     padding: 20px 0px;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.backcontact{
+#backcontact{
     position:absolute;
     font-size: 80px;
     margin: 100px 400px;
@@ -31,28 +31,28 @@
     color:#F5F5F5 ;
 }
 
-.contacttext{
+#contacttext{
     margin-top: 20px;
     font-size: 60px;
     color: #000;
     font-weight: 700;
 }
 
-.underlineC{
+#underlineC{
     width: 300px;
     margin-top: 10px;
     height: 2px;
     background-color: #FFC815;
 }
 
-.intouch{
+#intouch{
     margin-top: 20px;
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 500;
 }
 
-.lastcontainer{
+#lastcontainer{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -62,7 +62,7 @@
     align-items: center;
 }
 
-.underlinel{
+#underlinel{
     width: 95%;
     margin: auto;
     height: 1.1px;
@@ -70,51 +70,52 @@
     margin-top: 100px;
 }
 
-.end{
+#end{
     display: flex;
     align-items: center;
     position: absolute;
+    left:40%;
     margin-top: 20px;
-    width: 100%;
+    width: 60%;
     height: 100px;
     background-color: #000;
     color: #F5F5F5;
     font-size: 15px;
     color: #FFC815;
-    position: relative;
+
 }
 
-.end p{
+#end p{
     margin-left: 100px;
 }
 
 @media only screen and (max-width : 600px) {
-    .banner{
+    #banner{
         margin-top: 40px;
     }
 
-    .lastcontainer{
+    #lastcontainer{
         display: flex;
         flex-direction: column;
         margin-top: 50px;;
         letter-spacing: 1px;
         align-items: center;
     }
-    .number{
+    #number{
         margin-bottom: 20px;
     }
-    .email{
+    #email{
         margin-top: 20px;
     }
 
-    .underlinel{
+    #underlinel{
         margin-top: 50px;
     }
-    .end{
+    #end{
        margin-left: 0;
     }
 
-    .backcontact{
+    #backcontact{
         display: none;
     }
 }

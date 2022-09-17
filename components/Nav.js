@@ -9,17 +9,17 @@ const Nav = () => {
   return (
     <div className={navStyles.container}>
         <div className={navStyles.text}>
-            <p>Ali Kashani</p>
+            Ali Kashani
         </div>
         <div className={navStyles.menu}>
             <div className={navStyles.fitem}>
-               <a >About</a>
+               <a href='#about'>About</a>
             </div>
             <div className={navStyles.items}>
-                <a >Skills</a>
+                <a href='#skills'>Skills</a>
             </div>
             <div className={navStyles.items}>
-                <a >Contact</a>
+                <a href='#contact'>Contact</a>
             </div>
         </div>
     </div>

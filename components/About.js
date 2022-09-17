@@ -5,25 +5,34 @@ import {FaInstagram} from "react-icons/fa"
 
 const About = () => {
   return (
-    <div className={aboutStyles.container} id="#about">
+    <div className={aboutStyles.container} id="about">
         <div className={aboutStyles.who}>
-            <div className={aboutStyles.banner}>
-                WHO I AM
+            <div className='animate__animated animate__fadeInRight animate__slow'>
+                <div className={aboutStyles.banner} >
+                    WHO I AM
+                </div>
             </div>
             <div className={aboutStyles.backabout}>
+            <div className='animate__animated animate__fadeInRight animate__slow'>
                 ABOUT
+            </div>
             </div>
         </div>
         <div className={aboutStyles.aboutfont}>
+        <div className='animate__animated animate__zoomIn animate__slower'>
             ABOUT
+            </div>
         </div>
         <div className={aboutStyles.underline}>   
         </div>
         <div className={aboutStyles.main}>
             <div className={aboutStyles.pic}>
+            <div className='animate__animated animate__fadeIn animate__slow'>
                 <Image src='/me.jpeg' width={350} height={358} />
+                </div>
             </div>
             <div className={aboutStyles.textcontainer}>
+            <div className='animate__animated animate__fadeIn animate__slow'>
                 <div className={aboutStyles.firsttext}>
                     Ali Kashani
                 </div>
@@ -40,13 +49,19 @@ const About = () => {
                 make the future.
 
                 </div>
+                </div>
                 <div className={aboutStyles.follow}>
+                    
                     <div className={aboutStyles.textfollow}>
+                    <div className='animate__animated animate__fadeInRight animate__slow'>
                     FOLLOW ME ON
+                    </div>
                     </div>
                     <div className={aboutStyles.insta}>
                         <a href='https://www.instagram.com/kashaniali_/'>
+                        <div className='animate__animated animate__fadeInRight animate__slow'>
                             <span> <FaInstagram /></span>
+                            </div>
                         </a>
                     </div>
                 </div>

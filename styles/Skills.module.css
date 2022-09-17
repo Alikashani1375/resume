@@ -51,6 +51,7 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
+    z-index:-1;
 }
 
 .frontend{
@@ -79,6 +80,13 @@
     width: 50%;
 }
 
+
+#Nextjs{
+    width: 45%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
 .percent{
     margin-left: auto;
     width: 50%;
@@ -89,40 +97,73 @@
     width: 100%;
     background-color: #EEEEEE;
     height: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
 
-.full{
-    width: 100%;
-    height: 10px;
-    background-color: #FFC815;
-}
 
-.Nextjs{
-    width: 90%;
-    height: 10px;
-    background-color: #FFC815;
-}
-
-.git{
-    width: 80%;
-    height: 10px;
-    background-color: #FFC815;
-}
-
-.redux{
-    width: 90%;
-    height: 10px;
-    background-color: #FFC815;
-}
-
-.typescript{
+.animatefull{
     width: 50%;
     height: 10px;
     background-color: #FFC815;
+    z-index: 1;
+}
+.animate90{
+    width: 45%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
+.animate80{
+    width: 40%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
+.animate70{
+    width: 35%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
+.animate50{
+    width: 35%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
 }
 
-.stylecomponent{
-    width: 70%;
+#full{
+    width: 50%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
+
+
+
+#git{
+    width: 40%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
+
+#redux{
+    width: 45%;
+    height: 10px;
+    background-color: #FFC815;
+}
+
+#typescript{
+    width: 25%;
+    height: 10px;
+    background-color: #FFC815;
+}
+
+#stylecomponent{
+    width: 35%;
     height: 10px;
     background-color: #FFC815;
 }

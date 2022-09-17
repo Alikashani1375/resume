@@ -19,7 +19,7 @@ const Pics = () => {
   
   return (
     <div className={picStyle.container} id={"#div"}>
-      <img src={picture} className={picStyle.bg} />    
+      <img  src={picture} id={picStyle.bg}  />    
     </div>
   )
 }
