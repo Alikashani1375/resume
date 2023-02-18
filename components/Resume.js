@@ -1,69 +1,51 @@
 import React from 'react'
-import aboutStyles from '../styles/Resume.module.css'
+import resumeStyles from '../styles/Resume.module.css'
 import Image from 'next/image'
 
 const Resume = () => {
   return (
-    <div className={aboutStyles.container} id="about">
-        <div className={aboutStyles.who}>
+    <div className={resumeStyles.container} id="about">
+        <div className={resumeStyles.who}>
             <div className='animate__animated animate__fadeInRight animate__slow'>
-                <div className={aboutStyles.banner} >
-                    WHO I AM
+                <div className={resumeStyles.banner} >
+                    Resume
                 </div>
             </div>
-            <div className={aboutStyles.backabout}>
+            <div className={resumeStyles.backabout}>
             <div className='animate__animated animate__fadeInRight animate__slow'>
-                ABOUT
+                EXPERIENCE
             </div>
             </div>
         </div>
-        <div className={aboutStyles.aboutfont}>
+        <div className={resumeStyles.aboutfont}>
         <div className='animate__animated animate__zoomIn animate__slower'>
-            ABOUT
+        EXPERIENCE
             </div>
         </div>
-        <div className={aboutStyles.underline}>   
+        <div className={resumeStyles.underline}>   
         </div>
-        <div className={aboutStyles.main}>
-            <div className={aboutStyles.pic}>
+        <div className={resumeStyles.main}>
+          
+            <div className={resumeStyles.textcontainer}>
             <div className='animate__animated animate__fadeIn animate__slow'>
-                <Image src='/me.jpeg' width={350} height={358} />
+                <div className={resumeStyles.firsttext}>
+                    TOLOE LOTOS HIRKAN
                 </div>
-            </div>
-            <div className={aboutStyles.textcontainer}>
-            <div className='animate__animated animate__fadeIn animate__slow'>
-                <div className={aboutStyles.firsttext}>
-                    Ali Kashani
+                <div className={resumeStyles.secondtext}>
+                    WEB DEVELOPER / APP DEVELOPER
                 </div>
-                <div className={aboutStyles.secondtext}>
-                WEB DEVELOPER FROM IRAN
-                </div>
-                <div className={aboutStyles.thirdtext}>
-                Self-taught junior front-end developer who knows how 
-                to create, design and modify web content. 
-                Ability to be flexible and learn fast during all stages of 
-                web development. Possesses strong interpersonal skills 
-                and is able to work well with others.
-                By now searches for an awesome team to join and 
-                make the future.
+                <div className={resumeStyles.thirdtext}>
+          Create React Native Apps
+          <br/>
+          Create Websites For Customers And Company
+          <br/>
+          Teach Junior Programmers
+          <br/>
+          10/4/2022 - 10/1/2023
 
                 </div>
                 </div>
-                <div className={aboutStyles.follow}>
-                    
-                    <div className={aboutStyles.textfollow}>
-                    <div className='animate__animated animate__fadeInRight animate__slow'>
-                    FOLLOW ME ON
-                    </div>
-                    </div>
-                    <div className={aboutStyles.insta}>
-                        <a href='https://www.instagram.com/kashaniali_/'>
-                        <div className='animate__animated animate__fadeInRight animate__slow'>
-                            <span> <FaInstagram /></span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+             
             </div>
         </div>
     </div>
