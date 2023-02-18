@@ -127,8 +127,14 @@
     background-color: #FFC815;
     z-index: 1;
 }
+.animate60{
+    width: 30%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
+}
 .animate50{
-    width: 35%;
+    width: 25%;
     height: 10px;
     background-color: #FFC815;
     z-index: 1;
@@ -140,26 +146,31 @@
     background-color: #FFC815;
     z-index: 1;
 }
-
-
-
-#git{
-    width: 40%;
+#nextjs{
+    width: 45%;
     height: 10px;
     background-color: #FFC815;
     z-index: 1;
 }
 
-#redux{
-    width: 45%;
+#nodejs{
+    width: 40%;
     height: 10px;
     background-color: #FFC815;
+    z-index: 1;
+}
+#reactnative{
+    width: 30%;
+    height: 10px;
+    background-color: #FFC815;
+    z-index: 1;
 }
 
 #typescript{
     width: 25%;
     height: 10px;
     background-color: #FFC815;
+    z-index: 1;
 }
 
 #stylecomponent{

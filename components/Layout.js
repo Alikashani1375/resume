@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import styles from "../styles/Layout.module.css"
 import About from './About'
@@ -10,6 +11,10 @@ import Skills from './Skills'
 const Layout = ({children}) => {
   return (
     <div>
+      <Head>
+        <title>my resume</title>
+        <meta name="description" content="a website about my skills" />
+      </Head>
         <Nav />
         <div className={styles.container}>
             <div className={styles.pics}>

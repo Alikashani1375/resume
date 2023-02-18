@@ -66,33 +66,33 @@ useEffect(function changebg() {
                        
                     <div className={skillsStyles.showskills}>
                         <div className={skillsStyles.nameskill}>
-                            <p>HTML5-CSS</p>
+                            <p>Node-Js</p>
                         </div>
                         <div className={skillsStyles.percent}>
-                            <p>100%</p>
+                            <p>80%</p>
                         </div>
                     </div>
                     <div className={skillsStyles.bgbar}>
-                    {show ? (<><div className={skillsStyles.animatefull}></div>
-                        <div id={skillsStyles.full} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
+                    {show ? (<><div className={skillsStyles.animate80}></div>
+                        <div id={skillsStyles.nodejs} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
                         
                     </div>   
                     <div className={skillsStyles.showskills}>
                         <div className={skillsStyles.nameskill}>
-                            <p>JavaScript</p>
+                            <p>React-Native</p>
                         </div>
                         <div className={skillsStyles.percent}>
-                            <p>100%</p>
+                            <p>60%</p>
                         </div>
                     </div>
                     <div className={skillsStyles.bgbar}>
-                    {show ? (<> <div className={skillsStyles.animatefull}></div>
-                        <div id={skillsStyles.full} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
+                    {show ? (<> <div className={skillsStyles.animate60}></div>
+                        <div id={skillsStyles.reactnative} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
                        
                     </div>   
                     <div className={skillsStyles.showskills}>
                         <div className={skillsStyles.nameskill}>
-                            <p>Bootstrap</p>
+                            <p>Bootstrap , Tailwind</p>
                         </div>
                         <div className={skillsStyles.percent}>
                             <p>100%</p>
@@ -105,7 +105,7 @@ useEffect(function changebg() {
                     </div>   
                     <div className={skillsStyles.showskills}>
                         <div className={skillsStyles.nameskill}>
-                            <p>Tailwind</p>
+                            <p>Jquery</p>
                         </div>
                         <div className={skillsStyles.percent}>
                             <p>100%</p>
@@ -118,15 +118,15 @@ useEffect(function changebg() {
                     </div>   
                     <div className={skillsStyles.showskills}>
                         <div className={skillsStyles.nameskill}>
-                            <p>Git</p>
+                            <p>Html,Css,JavaScript</p>
                         </div>
                         <div className={skillsStyles.percent}>
-                            <p>80%</p>
+                            <p>100%</p>
                         </div>
                     </div>
                     <div className={skillsStyles.bgbar}>
-                    {show ? (<><div className={skillsStyles.animate80}></div>
-                        <div id={skillsStyles.git} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
+                    {show ? (<><div className={skillsStyles.animatefull}></div>
+                        <div id={skillsStyles.full} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
                         
                     </div>   
                     <div className={skillsStyles.showskills}>
@@ -139,7 +139,7 @@ useEffect(function changebg() {
                     </div>
                     <div className={skillsStyles.bgbar}>
                     {show ? (<><div className={skillsStyles.animate90}></div>
-                        <div id={skillsStyles.redux} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
+                        <div id={skillsStyles.full} className="wow animate__animated animate__slideInLeft animate__slow"></div></>):(<></>)}
                         
                     </div>   
                     <div className={skillsStyles.showskills}>
