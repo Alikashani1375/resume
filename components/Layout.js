@@ -27,7 +27,7 @@ const Layout = ({children}) => {
                 <Facts />
                 <Skills />
                 <Resume />
-                <Works />
+                
                 <Contact />
             </div>
         </div>
