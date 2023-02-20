@@ -8,6 +8,7 @@ import Nav from './Nav'
 import Pics from './Pics'
 import Resume from './Resume'
 import Skills from './Skills'
+import Works from './Works'
 
 const Layout = ({children}) => {
   return (
@@ -26,6 +27,7 @@ const Layout = ({children}) => {
                 <Facts />
                 <Skills />
                 <Resume />
+                <Works />
                 <Contact />
             </div>
         </div>

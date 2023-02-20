@@ -8,7 +8,7 @@ const Facts = () => {
         </div>
         <div className={factStyles.projects}>
             <div className={factStyles.hprojects}>
-              5
+              10
             </div>
             <div>
             FINISHED PROJECTS
@@ -16,7 +16,7 @@ const Facts = () => {
         </div>
         <div className={factStyles.projects}>
             <div className={factStyles.hprojects}>
-              500
+              1500
             </div>
             <div>
             WORKING HOURS
