@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
     "git": "^0.1.5",
+    "jquery": "^3.6.3",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-animated-css": "^1.2.1",
