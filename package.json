@@ -10,14 +10,17 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
     "git": "^0.1.5",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "18.1.0",
     "react-icons": "^4.4.0",
     "react-slideshow-image": "^4.2.1",
-    "react-wow": "^1.0.0"
+    "react-wow": "^1.0.0",
+    "reactstrap": "^9.1.6"
   },
   "devDependencies": {
     "eslint": "8.17.0",

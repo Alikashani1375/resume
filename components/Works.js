@@ -1,6 +1,7 @@
 import React from 'react'
 import worksStyles from '../styles/Works.module.css'
 import Image from 'next/image'
+import Slideshow from './Slideshow'
 
 const Works = () => {
   
@@ -27,27 +28,8 @@ const Works = () => {
         </div>
         <div className={worksStyles.main}>
           
-            <div className={worksStyles.textcontainer}>
-            <div className='animate__animated animate__fadeIn animate__slow'>
-                <div className={worksStyles.firsttext}>
-                    TOLOE LOTOS HIRKAN
-                </div>
-                <div className={worksStyles.secondtext}>
-                    WEB DEVELOPER / APP DEVELOPER
-                </div>
-                <div className={worksStyles.thirdtext}>
-          Create React Native Apps
-          <br/>
-          Create Websites For Customers And Company
-          <br/>
-          Teach Junior Programmers
-          <br/>
-          10/4/2022 - 10/1/2023
-
-                </div>
-                </div>
-             
-            </div>
+       <Slideshow />
+       
         </div>
     </div>
   )
