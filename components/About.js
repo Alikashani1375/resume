@@ -40,7 +40,7 @@ const About = () => {
                 WEB DEVELOPER FROM IRAN
                 </div>
                 <div className={aboutStyles.thirdtext}>
-                Self-taught junior front-end developer who knows how 
+                Self-taught front-end developer who knows how 
                 to create, design and modify web content. 
                 Ability to be flexible and learn fast during all stages of 
                 web development. Possesses strong interpersonal skills 
