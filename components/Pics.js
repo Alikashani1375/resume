@@ -3,7 +3,6 @@ import React, { useState,useEffect } from 'react';
 
 const Pics = () => {
 
-
     const [picture,setPicture] = useState("/About.png")
     useEffect(function changebg() {
       window.addEventListener("scroll", (event)=>{

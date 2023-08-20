@@ -1,211 +1,208 @@
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 100px;
+
+  z-index: 100 !important;
+}
+
+.underline {
+  width: 95%;
+  margin: auto;
+  height: 1.1px;
+  background-color: #a1a1a1;
+}
+
+.banner {
+  margin-top: 80px;
+  width: 30%;
+  padding: 20px 0px;
+  background-color: #ffc815;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.backskill {
+  position: absolute;
+  font-size: 80px;
+  margin: 100px 400px;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.skillsfont {
+  margin-top: 20px;
+  font-size: 60px;
+  color: #000;
+  font-weight: 700;
+}
+
+.underlineS {
+  width: 300px;
+  margin-top: 10px;
+  height: 2px;
+  background-color: #ffc815;
+}
+
+.lastcontainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.frontend {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffca1b;
+  width: 25%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-family: cursive;
+  width: 75%;
+  margin-left: 30px;
+}
+
+.showskills {
+  display: flex;
+  flex-direction: row;
+  color: #3f3f3f;
+  margin-bottom: 0px;
+}
+
+.nameskills {
+  width: 50%;
+}
+
+#Nextjs {
+  width: 45%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.percent {
+  margin-left: auto;
+  width: 50%;
+  text-align: right;
+}
+
+.bgbar {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.animatefull {
+  width: 50%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.animate90 {
+  width: 45%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.animate80 {
+  width: 40%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.animate70 {
+  width: 35%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.animate60 {
+  width: 30%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+.animate50 {
+  width: 25%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+
+#full {
+  width: 50%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+#nextjs {
+  width: 45%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+
+#nodejs {
+  width: 40%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+#reactnative {
+  width: 30%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+
+#typescript {
+  width: 25%;
+  height: 10px;
+  background-color: #ffc815;
+  z-index: 1;
+}
+
+#stylecomponent {
+  width: 35%;
+  height: 10px;
+  background-color: #ffc815;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .banner {
     margin-top: 40px;
-    margin-right: 100px;
-}
+    width: 60%;
+  }
 
-.underline{
-    width: 95%;
-    margin: auto;
-    height: 1.1px;
-    background-color: #A1A1A1;
-}
+  .backskill {
+    display: none;
+  }
 
-.banner{
-    margin-top: 80px;
-    width: 30%;
-    padding: 20px 0px;
-    background-color: #FFC815;
-    color: black;
-    font-weight: 700;
-    font-size: 25px;
-    text-align: center;
-}
-
-.backskill{
-    position:absolute;
-    font-size: 80px;
-    margin: 100px 400px;
-    font-weight: 700;
-    color:#F5F5F5 ;
-}
-
-.skillsfont{
-    margin-top: 20px;
-    font-size: 60px;
-    color: #000;
-    font-weight: 700;
-}
-
-.underlineS{
-    width: 300px;
-    margin-top: 10px;
-    height: 2px;
-    background-color: #FFC815;
-}
-
-.lastcontainer{
+  .lastcontainer {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     align-items: center;
-    z-index:-1;
-}
-
-.frontend{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFCA1B;
-    width: 25%;
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
-    font-family:cursive;
-    width: 75%;
-    margin-left: 30px;
-}
-
-.showskills{
-    display: flex;
-    flex-direction: row;
-    color: #3F3F3F;
-    margin-bottom: 0px;
-}
-
-.nameskills{
-    width: 50%;
-}
-
-
-#Nextjs{
-    width: 45%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.percent{
-    margin-left: auto;
-    width: 50%;
-    text-align: right;
-}
-
-.bgbar{
-    width: 100%;
-    background-color: #EEEEEE;
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.animatefull{
-    width: 50%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.animate90{
-    width: 45%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.animate80{
-    width: 40%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.animate70{
-    width: 35%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.animate60{
-    width: 30%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-.animate50{
-    width: 25%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-
-#full{
-    width: 50%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-#nextjs{
-    width: 45%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-
-#nodejs{
-    width: 40%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-#reactnative{
-    width: 30%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-
-#typescript{
-    width: 25%;
-    height: 10px;
-    background-color: #FFC815;
-    z-index: 1;
-}
-
-#stylecomponent{
-    width: 35%;
-    height: 10px;
-    background-color: #FFC815;
-}
-
-@media only screen and (max-width : 600px) {
-
-    .container{
-        margin-top: 30px;
-        margin-right: 0;
-    }
-
-    .main{
-        margin-left: 0;
-    }
-
-    .banner{
-        margin-top: 40px;
-        width: 60%;
-    }
-
-    .backskill{
-        display: none;
-    }
-
-    .lastcontainer{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
+    justify-content: center;
+  }
 }
