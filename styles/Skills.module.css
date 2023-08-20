@@ -74,8 +74,13 @@
 .showskills {
   display: flex;
   flex-direction: row;
+  align-items: center;
   color: #3f3f3f;
   margin-bottom: 0px;
+}
+.showskills div p {
+  margin-bottom: 3px !important;
+  margin-top: 12px !important;
 }
 
 .nameskills {
